@@ -1,5 +1,33 @@
 # Python OOP
+```
+# Enter your code here. Read input from STDIN. Print output to STDOUT
 
+class Queue():
+    
+    def __inint__(self):
+        self.contain=[]
+    
+    def enqueue(self,number):
+        self.contain.append(number)
+    
+    def dequeue(self):
+        self.contain.pop()
+        
+    def __str__(self):
+        return self.contain[0]
+        
+if __name__ == '__main__':
+    tests = int(input())
+    
+    for i in range(test):
+        
+        
+
+        
+        
+        
+    
+```
 ```
 class Dog:
     # Class attribute, auto create when call new class
