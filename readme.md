@@ -4,7 +4,7 @@
 
 class Queue():
     
-    def __inint__(self):
+    def __init__(self):
         self.contain=[]
     
     def enqueue(self,number):
